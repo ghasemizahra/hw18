@@ -5,7 +5,7 @@ body{
 }
 header{
   text-align: center;
-  background-color: #072014;
+  background-color: #e6812f;
 }
 .login , .signup{
     padding-left: 4rem;
@@ -13,11 +13,11 @@ header{
     cursor: pointer;
 }
 .active{
-    background-color: #198754;
+    background-color: #e95419;
     cursor:not-allowed;
 }
 .in-active{
-    background-color:#6c757d !important;
+    background-color:#d86f19 !important;
 }
 .holder{
     width: 50%;

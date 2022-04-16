@@ -15,7 +15,7 @@ const Login = () => {
     name: "",
   });
   useEffect(() => {
-    axios.get("http://localhost:3001/users").then((res) => {
+    axios.get("http://localhost:3002/users").then((res) => {
       setData(res.data);
     });
   }, []);

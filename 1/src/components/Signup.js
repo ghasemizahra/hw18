@@ -75,7 +75,7 @@ const Signup=()=> {
     onSubmit:values => {
       console.log('submit')
       console.log(values);
-      axios.post('http://localhost:3001/users',{'email':values.email,'password':values.password,"name":values.firstName})
+      axios.post('http://localhost:3002/users',{'email':values.email,'password':values.password,"name":values.firstName})
       .then(resp => {console.log(resp.data);})
       .catch(error => {console.log(error)});
     alert(JSON.stringify(values, null, 2));
