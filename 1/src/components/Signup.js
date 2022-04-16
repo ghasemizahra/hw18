@@ -21,7 +21,7 @@ const Signup=()=> {
     setCity(event.target.value)
   }
   const getData=()=>{
-    fetch('./iranstates.json')
+    fetch('./json/iranstates.json')
     .then(response=>response.json())
     .then(res=> setData(res))
   }
